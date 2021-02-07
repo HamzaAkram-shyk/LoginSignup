@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/current_job"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Worker Details: "
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/wname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ddd"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/wmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ddd"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/taskname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:text="dddd"
+            />
+        <TextView
+            android:id="@+id/taskdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dddd"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/taskPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dddd"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Client Details:"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:id="@+id/cname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="4dp"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:id="@+id/cmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

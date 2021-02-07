@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        >
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/job_icon_item"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+     <ScrollView
+         android:id="@+id/scroll"
+         android:layout_width="match_parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@id/icon"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintBottom_toBottomOf="parent"
+         android:layout_marginStart="4dp"
+         android:layout_marginEnd="4dp"
+         android:nestedScrollingEnabled="true"
+         android:layout_height="0dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:isScrollContainer="true"
+             >
+
+             <TextView
+                 android:id="@+id/title"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Title:"
+                 android:textColor="@android:color/holo_blue_dark"
+                 android:textStyle="bold"
+                 android:textSize="18sp"
+                 />
+             <TextView
+                 android:layout_marginTop="5dp"
+                 android:id="@+id/price"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Price:"
+                 android:textSize="15sp"
+                 android:textStyle="normal"
+                 android:textColor="@android:color/black"
+                 />
+
+             <TextView
+                 android:id="@+id/category"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Category:"
+                 android:textSize="15sp"
+                 android:textStyle="normal"
+                 android:textColor="@android:color/black"
+                 />
+             <TextView
+                 android:id="@+id/details"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Details:"
+                 android:layout_marginTop="6dp"
+                 android:textSize="15sp"
+                 android:textStyle="normal"
+                 android:textColor="@android:color/black"
+                 />
+         </LinearLayout>
+
+     </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

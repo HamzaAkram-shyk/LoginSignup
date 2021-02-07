@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/reviewjobs"
+        android:title="Review Tasks"
+        android:icon="@drawable/review_job_icon"/>
+    <item
+        android:id="@+id/postjobs"
+        android:title="Post Tasks"
+        android:icon="@drawable/post_job_icon"/>
+    <item
+    android:id="@+id/myjobs"
+    android:title="My Tasks"
+    android:icon="@drawable/current_job_icon"/>
+    <item
+        android:id="@+id/hire"
+        android:title="My Hire"
+        android:icon="@drawable/hire_icon"
+        />
+    <item
+        android:id="@+id/client_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon"
+        />
+
+
+
+</menu>

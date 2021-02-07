@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/alljobs"
+        android:title="Tasks"
+        android:icon="@drawable/alljobs_icon"/>
+    <item
+        android:id="@+id/applyjobs"
+        android:title="Apply Tasks"
+        android:icon="@drawable/apply_job_icon"/>
+
+
+    <item
+    android:id="@+id/currentjob"
+    android:title="Current Tasks"
+    android:icon="@drawable/current_job_icon"/>
+
+    <item
+        android:id="@+id/worker_profile"
+        android:title="Worker Profile"
+        android:icon="@drawable/profile_icon"/>
+
+    <item
+        android:id="@+id/recommend"
+        android:title="Recommend"
+        android:icon="@drawable/recommend"/>
+
+
+
+</menu>

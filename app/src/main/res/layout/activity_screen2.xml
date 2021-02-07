@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/buttonscreen"
+    tools:context=".screen2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    >
+
+    <Button
+        android:id="@+id/btnlogin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login With Email"
+        />
+
+    <Button
+        android:id="@+id/btnlogin0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
+
+    <Button
+
+        android:layout_width="200dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:background="@android:color/white"
+        android:text="login with email"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <Button
+        android:id="@+id/btnlogin2"
+        android:visibility="gone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:background="@android:color/white"
+        android:text="Phone verification"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <Button
+
+        android:layout_width="20dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:background="@android:color/transparent"
+        android:text="don't have an account?signup"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+</RelativeLayout>
